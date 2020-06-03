@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import PortfolioPage from './pages/PortfolioPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
 // import ContactPage from './pages/ContactPage';
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends React.Component {
         {/* <!--  Page Pilling  Strat  --> */}
 		 <div id="pagepiling" className="pagepiling">
 
+     {/* <ProjectDetailPage/> */}
              {/* <!--   Header Start --> */}
              <Header/>
              {/* <!--   Header End   -->

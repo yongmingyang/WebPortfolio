@@ -1,220 +1,139 @@
 import React, { Component } from 'react';
+import ProjectDetailPage from './ProjectDetailPage';
+import PortfolioItem from '../components/PortfolioItem';
+import Tab from '../components/Tab';
+import set1_1 from '../images/SEOULXJEJU/set1_1.jpg';
+// import set1_1th from '../images/SEOULXJEJU/thumbnails/set1_1th.jpg';
+import set1_2 from '../images/SEOULXJEJU/set1_2.jpg';
+// import set1_2th from '../images/SEOULXJEJU/thumbnails/set1_2th.jpg';
+import set1_3 from '../images/SEOULXJEJU/set1_3.jpg';
+import sardinerun from '../images/PHILIPPINES/sardinerun.jpg';
+import Israel9 from '../images/ISRAEL/Israel9.jpg';
+import Thailand from '../images/BYF/Thailand.jpg';
+import canvasCover from '../images/CANVASII/canvasCover.jpg';
 
 export default class PortfolioPage extends Component {
     render() {
         return(
-            <section id="portfolio" className="section pp-scrollable portfolio" data-navigation-color="#fff" data-navigation-tooltip="PORTFOLIO">
-                <div className="display-table">
-                    <div className="display-content">
-                        <div className="container">
-                        <div className="row">
-                            <div className="title-small">
-                                <p className="text-dark">Portfolio</p>
-                            </div>
-                            <div className="col-lg-12">
-                                <div className="text-left">
-                                    <h2 className="text-dark">All <span className="base-color">Projects</span></h2>
-                                    <p className="text-muted mx-auto section-subtitle mt-3">A mix of technology and creativity</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt-4">
-                            {/* <!--   Portfolio Filters   --> */}
-                            <ul id="portfolio-filter" className="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
-                                <li className="list-inline-item">
-                                    <a href="#" data-filter="*" className="active my-1">All</a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#" data-filter=".webdesign" className="my-1">Photography</a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#" data-filter=".mobiledesign" className="my-1">Mobile Apps</a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#" data-filter=".seo" className="my-1">Travel Videos</a>
-                                </li>
-                                {/* <li className="list-inline-item">
-                                    <a href="#" data-filter=".graphic" className="my-1">Graphic</a>
-                                </li> */}
-                            </ul>
-                        </div>
-                        <div className="portfolio-items mt-4 row">
-                            {/* <!-- Item 01 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 seo">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
+            <>
+                <section id="portfolio" className="section pp-scrollable portfolio" data-navigation-color="#fff" data-navigation-tooltip="PORTFOLIO">
+                    <div className="display-table">
+                        <div className="display-content">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="title-small">
+                                        <p className="text-dark">Portfolio</p>
+                                    </div>
+                                    <div className="col-lg-12">
+                                        <div className="text-left">
+                                            <h2 className="text-dark">All <span className="base-color">Projects</span></h2>
+                                            <p className="text-muted mx-auto section-subtitle mt-3">A mix of technology and creativity</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* <!-- Item 02 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 graphic">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
+                                <div className="row mt-4">
+                                    {/* <!--   Portfolio Filters   --> */}
+                                    <ul id="portfolio-filter" className="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
+                                        <li className="list-inline-item">
+                                            <a href="#" data-filter=".photography" className="active my-1">Photography</a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a href="#" data-filter=".mobiledesign" className="my-1">Code Projects</a>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <a href="#" data-filter=".seo" className="my-1">Travel Videos</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
-                            {/* <!-- Item 03 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 webdesign graphic">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Item 04 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 webdesign">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Item 05 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 mobiledesign seo">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Item 06 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 webdesign seo">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Item 07 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 mobiledesign">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Item 08 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Item 09 --> */}
-                            <div className="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
-                                <div className="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/"/>
-                                    <div className="img-overlay text-center">
-                                        <div className="img-overlay-content">
-                                            <div className="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
-                                                    <i className="lni-link"></i>
-                                                </button>
-                                                <a href="http://placehold.it/600x450" className="js-zoom-gallery">
-                                                    <i className="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 className="text-white mt-3 mb-0">My Work</h5>
-                                        </div>
-                                    </div>
+                                <div className="portfolio-items mt-1 row">
+                                    <Tab
+                                        tag="photography"
+                                        content={[
+                                            {
+                                                id: "portfolio-single3",
+                                                title: "MOALBOAL / PHILIPPINES",
+                                                image: {sardinerun} 
+                                            },
+                                            {
+                                                id: "portfolio-single2",
+                                                title: "SEOUL / JEJU",
+                                                image: {set1_1}
+                                            },
+                                            {
+                                                id: "portfolio-single",
+                                                title: "ISRAEL",
+                                                image: {Israel9}
+                                            },
+                                            {
+                                                id: "portfolio-single4",
+                                                title: "THAILAND",
+                                                image: {Thailand}
+                                            },
+                                            {
+                                                id: "portfolio-single5",
+                                                title: "CANVAS PERFORMANCE",
+                                                image: {canvasCover}
+                                            }
+                                        ]}
+                                    />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                </div>
-            </section>
+                </section>
+                <ProjectDetailPage
+                    image1={set1_1}
+                    image2={set1_2}
+                    image3={set1_3}
+                    header="Seoul/Jeju"
+                    id="portfolio-single2"
+                    blackTitle="SEOUL / "
+                    orangeTitle="JEJU"
+                    shortDescription="Shots from a trip to Seoul and Jeju"
+                    skills="Photography / Lightroom"
+                    date="December 2019"
+                />
+                <ProjectDetailPage
+                    image1={sardinerun}
+                    header="Moalboal/Philippines"
+                    id="portfolio-single3"
+                    blackTitle="MOALBOAL / "
+                    orangeTitle="PHILIPPINES"
+                    shortDescription="Shots from a trip to Phillipines"
+                    skills="Photography / Lightroom"
+                    date="January 2020"
+                />
+                <ProjectDetailPage
+                    image1={Israel9}
+                    header="Israel"
+                    id="portfolio-single"
+                    blackTitle="ISR"
+                    orangeTitle="AEL"
+                    shortDescription="Shots from a trip to Israel"
+                    skills="Photography / Lightroom"
+                    date="May 2018"
+                />
+                <ProjectDetailPage
+                    image1={Thailand}
+                    header="Thailand"
+                    id="portfolio-single4"
+                    blackTitle="THAI"
+                    orangeTitle="LAND"
+                    shortDescription="Shots from a trip to Thailand"
+                    skills="Photography / Lightroom"
+                    date="July 2019"
+                />
+                <ProjectDetailPage
+                    image1={canvasCover}
+                    header="Canvas II"
+                    id="portfolio-single5"
+                    blackTitle="CANVAS "
+                    orangeTitle=" II"
+                    shortDescription="Shots from a school performance"
+                    skills="Photography / Lightroom"
+                    date="May 2016"
+                />
+            </>
         );
     }
 }

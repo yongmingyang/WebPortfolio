@@ -12,7 +12,7 @@ export default class Menu extends Component{
                                 <ul className="list-group text-left" id="myMenu">
                                     <li data-menuanchor="hero" className="list-group-item"><a href="#hero">Home</a></li>
                                     <li data-menuanchor="about" className="list-group-item"><a href="#about">About me</a></li>
-                                    {/* <li data-menuanchor="services" className="list-group-item"><a href="#services">Services</a></li> */}
+                                    <li data-menuanchor="resume" className="list-group-item"><a href="#resume">Resume</a></li>
                                     <li data-menuanchor="portfolio" className="list-group-item"><a href="#portfolio">Portfolio</a></li>
                                     {/* <li data-menuanchor="client" className="list-group-item"><a href="#testimonial">Client</a></li>
                                     <li data-menuanchor="blog" className="list-group-item"><a href="#blog">Blog</a></li> */}
