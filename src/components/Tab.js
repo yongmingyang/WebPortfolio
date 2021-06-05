@@ -6,6 +6,7 @@ export default class Tab extends Component{
         const tag = this.props.tag;
         const listItems = this.props.content.map(
             (tabItem) => {
+                console.log(tabItem.id);
                 return <PortfolioItem
                     id={tabItem.id}
                     title={tabItem.title}

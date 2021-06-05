@@ -19,7 +19,7 @@ export default class ResumePage extends Component {
                                 <div className="col-lg-12">
                                     <div className="text-left">
                                         <h2 className="text-dark mb-3"><span className="base-color">Resume</span></h2>
-                                        <p className="text-muted">Available for freelance projects.</p>
+                                        {/* <p className="text-muted">Available for freelance projects.</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default class ResumePage extends Component {
                                         {
                                             title: "Nanyang Junior College",
                                             duration: "2015 - 2016",
-                                            description: "Graduated with a rank point of 87.5/90 for 'A' Levels. \n Took on multiple leadership roles such as International Director of International Service Learning Expedition Team, Vice-Chairperson of class."
+                                            description: "Graduated with 4 H2 'A's for GCE 'A' Levels. \n Took on multiple leadership roles such as International Director of International Service Learning Expedition Team, Vice-Chairperson of class."
                                         },
                                         {
                                             title: "School of Science and Technology, Singapore",
@@ -55,19 +55,30 @@ export default class ResumePage extends Component {
                                     title="Experience"
                                     content={[
                                         {
+                                            title: "Software Engineer Intern, Infocomm Media Development Authority (IMDA)",
+                                            duration: "05/2021 - current",
+                                            description: `Worked on Artificial Intelligience Product Shopfloor project. Mainly focusing
+                                            on CI/CD, provisioning and deploying of resources using Amazon cloud services such as S3 bucket, Cloudfront and
+                                            Route 53.`
+                                        },
+                                        {
+                                            title: "Software Engineer Intern, Infocomm Media Development Authority (IMDA)",
+                                            duration: "06/2020 - 08/2020",
+                                            description: `Worked on developing a Mobile Device Solution (MDM) solution
+                                            to support the rollout of mobile devices under the Senior Go Digital. Focused on backend
+                                            use of Firebase and cloud functions and created an application to push notifications`
+                                        },
+                                        {
                                             title: "Photographer Intern, Multifolds Pte Ltd",
-                                            duration: "2019",
-                                            description: "Interned at Multifolds Private Ltd as a photographer. Had the opportunity to edit photos, take part in pre-wedding and actual day events. Took the chance to help create a customized automated-email-reply system."
+                                            duration: "02/2019 - 06/2019",
+                                            description: `Interned at Multifolds Private Ltd as a photographer. Had the opportunity to edit photos,
+                                            take part in pre-wedding and actual day events. Took the initiative to create a customized automated-email-reply system.`
                                         },
                                         {
                                             title: "Platoon Commander, Singapore Armed Forces",
                                             duration: "2018",
-                                            description: "Served as a Platoon Commander in the Singapore Armed Forces during the second year of National Service. In-charge of a platoon size of 30."
-                                        },
-                                        {
-                                            title: ">Waiter, Woody Family Cafe",
-                                            duration: "2015",
-                                            description: "Worked at Woody Family Cafe for a short period before Junior College."
+                                            description: `Served as a Platoon Commander in the Singapore Armed Forces during the second year of National Service, was
+                                            in-charge of a platoon size of 30.`
                                         }
                                     ]}
                                 />
@@ -77,23 +88,18 @@ export default class ResumePage extends Component {
                                     title="Tech Stacks"
                                     content={[
                                         {
-                                            proficiency: '80%',
                                             name: "JavaScript"
                                         },
                                         {
-                                            proficiency: '80%',
                                             name: "Java"
                                         },
                                         {
-                                            proficiency: '80%',
-                                            name: "HTML"
+                                            name: "Firebase"
                                         },
                                         {
-                                            proficiency: '60%',
-                                            name: "CSS"
+                                            name: "React"
                                         },
                                         {
-                                            proficiency: '50%',
                                             name: "React Native"
                                         }
                                     ]}
@@ -102,19 +108,15 @@ export default class ResumePage extends Component {
                                     title="Creative and Others"
                                     content={[
                                         {
-                                            proficiency: '80%',
                                             name: "Lightroom"
                                         },
                                         {
-                                            proficiency: '60%',
                                             name: "Photoshop"
                                         },
                                         {
-                                            proficiency: '50%',
                                             name: "Premiere Pro"
                                         },
                                         {
-                                            proficiency: '80%',
                                             name: "Advanced Open Water Diver"
                                         },
                                     ]}

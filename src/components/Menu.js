@@ -19,14 +19,14 @@ export default class Menu extends Component{
                                 </ul>
                                 <ul className="list-group contact-info text-left mb-0">
                                     <li className="list-group-item"><span>Contact Info :</span></li>
-                                    <li className="list-group-item"><span><i className="lni-map-marker"></i> Singapore</span></li>
-                                    <li className="list-group-item"><span><i className="lni-envelope"></i> yongmingyang1998@gmail.com</span></li>
+                                    <li className="list-group-item"><span><i className="lni-map-marker"></i>Singapore</span></li>
+                                    <li className="list-group-item"><span><i className="lni-envelope"></i>yong.mingyang@u.nus.edu</span></li>
                                     <li className="list-group-item"><span>Follow me :</span></li>
                                     <li className="list-group-item">
                                         <ul className="list-inline socails">
-                                            <li className="list-inline-item"><a href="https://www.instagram.com/yongmingyang"><i className="lni-instagram-filled text-dark"></i></a></li>
-                                            <li className="list-inline-item"><a href="https://github.com/yongmingyang"><i className="lni-github-original text-dark"></i></a></li>
-                                            <li className="list-inline-item"><a href="https://www.linkedin.com/in/yong-ming-yang-158379165/"><i className="lni-linkedin-original text-dark"></i></a></li>
+                                            <li className="list-inline-item"><a href="https://www.instagram.com/yongmingyang"><i className="lni-instagram-filled text-light"></i></a></li>
+                                            <li className="list-inline-item"><a href="https://github.com/yongmingyang"><i className="lni-github-original text-light"></i></a></li>
+                                            <li className="list-inline-item"><a href="https://www.linkedin.com/in/yong-ming-yang-158379165/"><i className="lni-linkedin-original text-light"></i></a></li>
                                         </ul>
                                     </li>
                                 </ul>

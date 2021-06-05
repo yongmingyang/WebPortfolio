@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 // import Slider from '../components/SliderComponent/components/Slider';
 
-export default class ProjectDetailPage extends Component{
+export default class ImageDetailPage extends Component{
     render(){
 
         const { 
-            header, id, blackTitle,
-            orangeTitle, image, shortDescription,
-            date, skills
+            header,
+            id,
+            blackTitle,
+            orangeTitle,
+            image, 
+            shortDescription,
+            date, 
+            skills
         } = this.props
         
         console.log(typeof image)
@@ -56,16 +61,6 @@ export default class ProjectDetailPage extends Component{
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="mt-5">
-                                                {/* <div className="portfolio-single-item"> */}
-                                                    {/* <img src={image} className="d-block w-100 rounded" alt="..."/> */}
-                                                    {/* <Slider slides={image} /> */}
-                                                {/* </div> */}
-                                            </div>
-                                            <div className="text-md-left mt-5">
-                                                <p className="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
-                                                <p className="mt-3 mb-0 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
                                             </div>
                                         </div>
                                     </div>

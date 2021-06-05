@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import ProjectDetailPage from './ProjectDetailPage';
-import PortfolioItem from '../components/PortfolioItem';
+import About from './AboutPage';
+import ImageDetailPage from './ImageDetailPage';
 import Tab from '../components/Tab';
 import set1_1 from '../images/SEOULXJEJU/set1_1.jpg';
-// import set1_1th from '../images/SEOULXJEJU/thumbnails/set1_1th.jpg';
 import set1_2 from '../images/SEOULXJEJU/set1_2.jpg';
-// import set1_2th from '../images/SEOULXJEJU/thumbnails/set1_2th.jpg';
 import set1_3 from '../images/SEOULXJEJU/set1_3.jpg';
 import sardinerun from '../images/PHILIPPINES/sardinerun.jpg';
 import Israel9 from '../images/ISRAEL/Israel9.jpg';
 import Thailand from '../images/BYF/Thailand.jpg';
 import canvasCover from '../images/CANVASII/canvasCover.jpg';
+import images from "../images/BYF/images";
 
 export default class PortfolioPage extends Component {
     render() {
+        console.log(images);
         return(
             <>
                 <section id="portfolio" className="section pp-scrollable portfolio" data-navigation-color="#fff" data-navigation-tooltip="PORTFOLIO">
@@ -38,7 +38,7 @@ export default class PortfolioPage extends Component {
                                             <a href="#" data-filter=".photography" className="active my-1">Photography</a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#" data-filter=".mobiledesign" className="my-1">Code Projects</a>
+                                            <a href="#" data-filter=".codeprojects" className="my-1">Code Projects</a>
                                         </li>
                                         <li className="list-inline-item">
                                             <a href="#" data-filter=".seo" className="my-1">Travel Videos</a>
@@ -76,15 +76,34 @@ export default class PortfolioPage extends Component {
                                             }
                                         ]}
                                     />
+                                    <Tab
+                                        tag="codeprojects"
+                                        content={[
+                                            {
+                                                id: "./projectPages/ThailandPage",
+                                                title: "MOALBOAL / PHILIPPINES",
+                                                image: {sardinerun} 
+                                            },
+                                            {
+                                                id: "portfolio-single6",
+                                                title: "THAILAND",
+                                                image: {Thailand}
+                                            },
+                                            {
+                                                id: "portfolio-single0",
+                                                title: "CANVAS PERFORMANCE",
+                                                image: {canvasCover}
+                                            }
+
+                                        ]}
+                                    />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <ProjectDetailPage
-                    image1={set1_1}
-                    image2={set1_2}
-                    image3={set1_3}
+                <ImageDetailPage
+                    image={[set1_1, set1_2, set1_3]}
                     header="Seoul/Jeju"
                     id="portfolio-single2"
                     blackTitle="SEOUL / "
@@ -93,7 +112,7 @@ export default class PortfolioPage extends Component {
                     skills="Photography / Lightroom"
                     date="December 2019"
                 />
-                <ProjectDetailPage
+                {/* <ProjectDetailPage
                     image1={sardinerun}
                     header="Moalboal/Philippines"
                     id="portfolio-single3"
@@ -132,7 +151,7 @@ export default class PortfolioPage extends Component {
                     shortDescription="Shots from a school performance"
                     skills="Photography / Lightroom"
                     date="May 2016"
-                />
+                /> */}
             </>
         );
     }

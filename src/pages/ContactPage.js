@@ -32,7 +32,7 @@ export default class BlogPage extends Component{
                                     <div className="mt-4">
                                         {/* <p className="mt-2 font-weight-bold"> Address : <span className="text-muted"> Singapore</span></p> */}
                                         {/* <p className="mt-2 font-weight-bold"> Phone : <span className="text-muted"> +1 212-695-1962</span></p> */}
-                                        <p className="mt-2 font-weight-bold"> Mail : <span className="text-muted">yongmingyang1998@gmail.com </span></p>
+                                        <p className="mt-2 font-weight-bold"> Mail : <span className="text-muted">yong.mingyang@u.nus.edu</span></p>
                                         {/* <p className="mt-2 font-weight-bold"> Web : <span className="text-muted">www.yongmingyang.com </span></p> */}
                                     </div>
                                 </div>

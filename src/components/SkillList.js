@@ -8,7 +8,7 @@ export default class SkillList extends Component{
             (skill) => {
                 counter++;
                 return <SkillBar
-                proficiency={skill.proficiency}
+                // proficiency={skill.proficiency}
                 skillname={skill.name}
             />
             }

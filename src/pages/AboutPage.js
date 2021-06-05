@@ -19,7 +19,7 @@ export default class AboutPage extends Component {
                             </div>
                             <div className="col-lg-1"></div>
                             <div className="col-lg-8 personal-item  mb-4 mb-lg-0">
-                                <h2 className="text-dark mb-2">Ming <span className="base-color">Yang</span></h2>
+                                {/* <h2 className="text-dark mb-2">Ming <span className="base-color">Yang</span></h2> */}
                                 {/* <h5 className="text-dark mb-3">Ming Yang</h5> */}
                                 <div className="row">
                                   <div className="col-lg-12 col-sm-6 personal-info">
@@ -27,27 +27,32 @@ export default class AboutPage extends Component {
                                           <p className="text-dark">Degree : <span className="text-gray">Undergraduate, Computer Science</span></p>
                                           <p className="text-dark">Mail : <span className="text-gray">yongmingyang1998@gmail.com</span></p> */}
                                           {/* <p className="text-dark">Freelance : <span className="text-gray">Available</span></p> */}
-                                          <p className="text-dark">
-                                            Currently based in Singapore, currently an undergraduate studying Computer Science in the National University of Singapore.    
-                                          </p>
-                                          <p className="text-dark">
+                                          <p className="text-dark" style={{textAlign: "justify"}}>
+                                            Hi! I'm Ming Yang, 23 years old and I'm currently based in Singapore, studying Computer Science at the National University of Singapore.    
                                             I love to tell stories and create through various mediums such as coding and photos. 
                                             In my free time, you can find me diving (always up for any spontaneous adventures), coding or shooting photos.
-                                            <br/>
-                                            (Teh/kopi bing are my daily go to)
+                                            
+                                            (P.S. Teh/kopi bing are my daily go to)
                                           <br/>
-                                          <br/>
-                                            *Copy of resume can be provided upon request.
                                           </p>
                                           <br/>
-                                          <h5 className="text-dark mb-3">Currently Working On:</h5>
-                                          <p className="text-dark">
-                                            A cross-platform mobile application to help users engage more with fashion. 
+                                          <h5 className="text-dark mb-3">Here's what I'm currently working on this summer:</h5>
+                                          <p className="text-dark" style={{textAlign: "justify"}}>
+                                            <b>Mynorca:</b>
                                             <br/>
-                                            Developing using React Native.
+                                            An overlay tool to ease new employees into their workplace seamlessly by automatically identifying and explaining acronyms found in a company’s workspace.
                                           </p>
-                                          <p className="text-dark">
-                                            Contact me at: <b>yongmingyang1998@gmail.com</b>
+                                          <p className="text-dark" style={{textAlign: "justify"}}>
+                                            <b>Internship:</b>
+                                            <br/>
+                                            Currently interning at IMDA Digital Services Lab (DSL) as a Software Engineer Intern, where I am working on a project known as
+                                            AI Product Shopfloor which aims to equip SMEs in Singapore with AI tools.
+                                          </p>
+                                          <br/>
+                                          <p className="text-dark" style={{textAlign: "justify"}}>
+                                            Contact me at: <b>yong.mingyang@u.nus.edu</b>
+                                            <br/>
+                                            Copy of resume can be provided upon request.
                                           </p>
                                     </div>
                                 </div>
