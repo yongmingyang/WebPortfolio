@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
 // import Slider from '../components/SliderComponent/components/Slider';
 
-export default class ProjectDetailPage extends Component{
-    render(){
-
-        const { 
-            header, id, blackTitle,
-            orangeTitle, image, shortDescription,
-            date, skills
-        } = this.props
-        
-        console.log(typeof image)
-
-        return (
-            <div className="portfolio-single modal fade" id={id} tabIndex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
+const ProjectDetailPage = ({
+    header, id, blackTitle, orangeTitle,
+    image, shortDescription, date, skills
+}) => {
+    return (
+        <div className="portfolio-single modal fade" id={id} tabIndex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-scrollable" role="document">
                     <div className="modal-content bg-white">
                         <div className="modal-header">
@@ -75,6 +68,7 @@ export default class ProjectDetailPage extends Component{
                     </div>
                 </div>
             </div>
-        );
-    }
+    )
 }
+
+export default ProjectDetailPage;

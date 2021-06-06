@@ -46,7 +46,7 @@ export default class ResumePage extends Component {
                                         {
                                             title: "School of Science and Technology, Singapore",
                                             duration: "2011 - 2014",
-                                            description: "Graduated with a score of 5 for 'O' Levels. \n Took on leadership roles such as House, Fencing Captain \n and Peer Support Board Leader"
+                                            description: "Graduated with a score of 5 for 'O' Levels. \n Took on leadership roles such as House Captain, Fencing Captain \n and Peer Support Board Leader"
                                         }
                                     ]}
                                 />
