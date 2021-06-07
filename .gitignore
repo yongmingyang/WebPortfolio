@@ -31,3 +31,11 @@ firestore.rules
 database.rules.json
 storage.rules
 functions/
+
+src/images/CANVASII
+src/images/ISRAEL
+src/images/PH_BIRTHDAY
+src/images/PHILIPPINES
+src/images/SEOULXJEJU
+src/images/TAIWAN
+src/images/US
