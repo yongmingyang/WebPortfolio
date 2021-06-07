@@ -233,10 +233,10 @@ const PortfolioPage = () => {
                         <div class="text-md-left mt-5">
                             <p class="my-3">
                                 For my first year of summer, I took part in Orbital, a program for year 1 Computer 
-                                Science students. For this project, the inspiration came from the fact that I felt 
-                                like I was always wearing the same few clothes from my wardrobe in the same combination.
-                                Therefore, I wanted to have my outfits for the week planned out based on fashion and color 
-                                theory, just to spice up my fashion sense a little.
+                                Science students. For this project, the inspiration came from the fact that my friend and I felt 
+                                like we were always wearing the same few clothes from our wardrobes in the same combination.
+                                Therefore, we wanted to have our outfits for the week planned out based on fashion and color 
+                                theory, just to spice up our fashion sense a little.
                                 <br/>
                                 <br/>
                                 Hence, the idea for InstaWear was conceived. A mobile application that would allow the user
