@@ -69,7 +69,7 @@ export default class ResumePage extends Component {
                                             use of Firebase and cloud functions and created an application to push notifications`
                                         },
                                         {
-                                            title: "Photographer Intern, Multifolds Pte Ltd",
+                                            title: "Photographer Intern, Multifolds Phtography Global Pte Ltd",
                                             duration: "02/2019 - 06/2019",
                                             description: `Interned at Multifolds Private Ltd as a photographer. Had the opportunity to edit photos,
                                             take part in pre-wedding and actual day events. Took the initiative to create a customized automated-email-reply system.`
