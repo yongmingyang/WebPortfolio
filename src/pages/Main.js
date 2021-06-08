@@ -59,7 +59,7 @@ class Main extends React.Component {
              {/* <!--   Footer End   -->
 
              <!--   Color Scheme  --> */}
-             <a className="color-scheme text-white bg-base-color d-inline-block" href="javascript:void(0)"><i className="lni-night"></i></a>
+             <a className="color-scheme text-white bg-base-color d-inline-block" href="#"><i className="lni-night"></i></a>
 
         </div>
         {/* <!--  Page Pilling  End --> */}

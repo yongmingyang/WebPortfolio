@@ -34,24 +34,41 @@ const PortfolioPage = () => {
             top: `${top}%`,
             left: `${left}%`,
             transform: `translate(-${top}%, -${left}%)`,
-        };
-    }
-    
-    const useStyles = makeStyles((theme) => ({
-        paper: {
             position: 'absolute',
             width: '95%',
             height: '90%',
-            backgroundColor: theme.palette.background.paper,
+            // backgroundColor: theme.palette.background.paper,
             borderRadius: '8px',
-            boxShadow: theme.shadows[5],
-            padding: theme.spacing(2, 4, 3),
+            boxShadow: "0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12)" ,
+            padding: "16px 32px 24px",
             overflow: 'auto'
-        },
-    }));
+        };
+    }
     
-    const classes = useStyles();
+    // const useStyles = makeStyles((theme) => ({
+    //     paper: {
+    //         position: 'absolute',
+    //         width: '95%',
+    //         height: '90%',
+    //         backgroundColor: theme.palette.background.paper,
+    //         borderRadius: '8px',
+    //         boxShadow: theme.shadows[5] ,
+    //         padding: theme.spacing(2, 4, 3),
+    //         overflow: 'auto'
+    //     },
+    // }));
+    
+    // const classes = useStyles();
                 
+
+    // const useStyles2 = makeStyles((theme) => {
+    //     console.log(theme)
+    //     console.log(theme.spacing(2, 4, 3))
+    //     console.log(theme.shadows[5])
+    // });
+
+    // useStyles2()
+
     //Mynorca functions and page     
     const handleOpenMynorca = () => {
         setOpenMynorca(true);
@@ -63,7 +80,7 @@ const PortfolioPage = () => {
 
     const MynorcaPage = () => {
         const body = (
-            <Container style={modalStyle} className={classes.paper}>
+            <Container style={modalStyle} className="bg-white">
                 <Container className="row" style={{width: "90%"}}>
                     <div className="text-center">
                         <h2 style={{textAlign:"center"}} className="text-dark mb-3">Mynorca</h2>
@@ -183,6 +200,7 @@ const PortfolioPage = () => {
                     onClose={() => handleCloseMynorca()}
                     aria-labelledby="simple-modal-title"
                     aria-describedby="simple-modal-description"
+                    className="bg-white"
                     >
                     {body}
                 </Modal>
@@ -202,7 +220,7 @@ const PortfolioPage = () => {
 
     const InstawearPage = () => {
         const body = (
-            <Container  style={modalStyle} className={classes.paper}>
+            <Container style={modalStyle} className="bg-white">
                 <Container className="row" style={{width: "90%"}}>
                     <div className="text-center">
                         <h2 style={{textAlign:"center"}} className="text-dark mb-3">InstaWear</h2>
@@ -289,6 +307,7 @@ const PortfolioPage = () => {
                     onClose={() => handleCloseInstawear()}
                     aria-labelledby="simple-modal-title"
                     aria-describedby="simple-modal-description"
+                    className="bg-white"
                     >
                     {body}
                 </Modal>
@@ -308,7 +327,7 @@ const PortfolioPage = () => {
 
     const AerPage = () => {
         const body = (
-            <Container style={modalStyle} className={classes.paper}>
+            <Container style={modalStyle} className="bg-white">
                 <Container className="row" style={{width: "90%"}}>
                     <div className="text-center">
                         <h2 style={{textAlign:"center"}} className="text-dark mb-3">A.E.R</h2>
@@ -365,6 +384,7 @@ const PortfolioPage = () => {
                 onClose={() => handleCloseAER()}
                 aria-labelledby="simple-modal-title"
                 aria-describedby="simple-modal-description"
+                className="bg-white"
             >
                 {body}
             </Modal>
@@ -388,9 +408,11 @@ const PortfolioPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <MynorcaPage/>
-                            <InstawearPage/>
-                            <AerPage/>
+                            <div className="nill-dark">
+                                <MynorcaPage/>
+                                <InstawearPage/>
+                                <AerPage/>
+                            </div>
                             <div className="portfolio-items mt-1 row">
                                 <Tab
                                     // tag="photography"
