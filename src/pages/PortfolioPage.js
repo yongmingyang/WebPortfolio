@@ -12,11 +12,16 @@ import Mynorca from '../images/Mynorca/M.jpg';
 import MynorcaEx1 from '../images/Mynorca/Mynorca_example.PNG';
 import MynorcaLogin from '../images/Mynorca/login.PNG';
 import Marketplace from '../images/Mynorca/marketplace.PNG';
-import MarketplaceExplanation from '../images/Mynorca/marketplace_explanation.PNG'
-import BulkUpload from '../images/Mynorca/bulk_upload.PNG'
+import MarketplaceExplanation from '../images/Mynorca/marketplace_explanation.PNG';
+import BulkUpload from '../images/Mynorca/bulk_upload.PNG';
 
-import AER from '../images/A.E.R/AER.png'
-import ApsScript from '../images/A.E.R/GoogleApsScript.png'
+import AER from '../images/A.E.R/AER.png';
+import ApsScript from '../images/A.E.R/GoogleApsScript.png';
+import Form from '../images/A.E.R/newform.png';
+import Form_two from '../images/A.E.R/newform2.png';
+import Script from '../images/A.E.R/newscript.jpg';
+import Script_two from '../images/A.E.R/newscript2.jpg';
+import Reply from '../images/A.E.R/reply.png'
 
 const PortfolioPage = () => {
     // getModalStyle is not a pure function, we roll the style only on the first render
@@ -105,13 +110,25 @@ const PortfolioPage = () => {
                         </div>
                         <div class="text-md-left mt-5">
                             <p class="my-3">
+                                <h3 class="text-md-left my-3">Problem Statement</h3>
                                 In the second summer of my University life, I wanted to be building applications while interning. After brainstorming with my brother, Zhun Hung,
                                 both of us felt that in the context of learning a new subject, or even as an employee reading an onboarding document,
-                                the amount of acronyms can be rather overwhelming. Instead of having to search for the acronym in a company's glossary or having to 
+                                the amount of acronyms can be rather overwhelming. 
+                                
+                                <br/>
+                                <br/>
+                                <b>How can we make acronyms more digestable?</b>
+                                
+                                <br/>
+                                <br/>
+                                
+                                <h3 class="text-md-left my-3">Ideation</h3>
+                                Instead of having to search for the acronym in a company's glossary or having to 
                                 constantly google a term, we felt that it would have been so much easier if the meaning of an acronym could be explained with a simple 
                                 highlight of the word. Hence, we kicked off the project and built a Minimum Viable Product on the google chrome extension platform.
                                 <br/>
                                 <br/>
+                                <h3 class="text-md-left my-3">Our Solution</h3>
                                 Here's how the it works:
                             </p>
                         </div>
@@ -127,21 +144,21 @@ const PortfolioPage = () => {
                             <br/>
                             <br/>
                                 Initially, the user would have an empty glossary. However, glossaries for some topics/subjects may already been created
-                                by previous users. Hence, we established a Marketplace in which glossaries can be downloaded and put into use immediately.
+                                by other users. Hence, we established a Marketplace in which glossaries can be downloaded and put into use immediately.
                                 Users would also be able to view the acronyms stored in each glossary prior to downloading.
                             </p>
                         </div>
                         {/* <Container className="row" style={{width: '120%'}}>
                             <div style={{float: 'left', width: '50%', padding: '5px'}}>
-                                    <img src={Marketplace} class="d-block w-100 rounded" alt="..."/>
+                            <img src={Marketplace} class="d-block w-100 rounded" alt="..."/>
                             </div>
                             <div  style={{float: 'left', width: '50%', padding: '5px'}}>
-                                    <img src={MarketplaceExplanation} class="d-block w-100 rounded" alt="..."/>
+                            <img src={MarketplaceExplanation} class="d-block w-100 rounded" alt="..."/>
                             
                             </div>
                         </Container> */}
                         <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
-                        <div class="portfolio-single-item" style={{marginBottom:"10px"}}>
+                            <div class="portfolio-single-item" style={{marginBottom:"10px"}}>
                                 <img src={Marketplace} class="d-block w-100 rounded" alt="..."/>
                             </div>
                             <div class="portfolio-single-item">
@@ -150,8 +167,8 @@ const PortfolioPage = () => {
                         </div>
                         <div class="text-md-left mt-5">
                             <p class="my-3">
-                                As we hope to have companies adopting the extension, we added a bulk upload feature which would enable companies to create their own glossaries.
-                                This would then enable their employees to easily reference acronyms without having to search for them in the company's glossary page.
+                                As we hope to have companies adopting the extension, we added a bulk upload feature which would enable companies to create their own glossaries on our platform.
+                                This enables their employees to easily reference acronyms without having to make the extra effort of searching for them in the company's glossary page.
                             </p>
                         </div>
                         <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
@@ -178,8 +195,9 @@ const PortfolioPage = () => {
 
                                 <br/>
                                 <br/>
+                                <h3 class="text-md-left my-3">Conclusion</h3>
                                 All in all, thank you for reading about Mynorca and
-                                I hope you've had an enjoyable time reading about it!
+                                I hope you've had an enjoyable time reading about it! More would be updated as we're still working on this project to improve it's functionalities!
                             </p>
                             <p class="my-3 text-muted" style={{fontSize:11}}>
                                 <br/>
@@ -250,16 +268,27 @@ const PortfolioPage = () => {
                         </div>
                         <div class="text-md-left mt-5">
                             <p class="my-3">
+                                <h3 class="text-md-left my-3">Problem Statement</h3>
                                 For my first year of summer, I took part in Orbital, a program for year 1 Computer 
                                 Science students. For this project, the inspiration came from the fact that my friend and I felt 
-                                like we were always wearing the same few clothes from our wardrobes in the same combination.
+                                that we were always wearing the same few clothes from our wardrobes in the same combination.
                                 Therefore, we wanted to have our outfits for the week planned out based on fashion and color 
                                 theory, just to spice up our fashion sense a little.
+
+                                <b>How can we come up with ways to better utilize our current wardrobe to dress better?</b>
                                 <br/>
                                 <br/>
+                                
+                                <h3 class="text-md-left my-3">Ideation</h3>
                                 Hence, the idea for InstaWear was conceived. A mobile application that would allow the user
                                 to input images of clothings in his closet, and outputs the various outfits
-                                he/she could wear for the week!
+                                he/she could wear for the week! We wanted to use React Native as it provides fast development and caters to both Android and iOS platforms,
+                                while utilizing Firebase as the backend as it eased database management. With the use of Firebase, services such as account registration,
+                                cloud functions and buckets to store user's images were all provided. All we had to do was to find tools that could help identify clothings and suggest 
+                                possible compatible colors. 
+
+                                <br/>
+                                <h3 class="text-md-left my-3">Our Solution</h3>
                             </p>
                         </div>
                         <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
@@ -269,14 +298,10 @@ const PortfolioPage = () => {
                         </div>
                         <div class="text-md-left mt-5">
                             <p class="my-3">
-                            This application works with React Native on the front-end, and utilizes Firebase
-                            on the backend. This was because I wanted the application to work on both Android and Apple platforms,
-                            while also maintaining the user's information easily. Firebase provided the service of account registration,
-                            cloud functions, as well as buckets to store user's images.
-                                
-                                <br/>
-                                <br/>
-                                As the user takes a photo of their clothing, the picture is automatically analyzed. I incorporated Google's image identifier 
+                           
+                            <br/>
+                            <br/>
+                            As the user takes a photo of their clothing, the picture is automatically analyzed. This is done by incorporating Google's image identifier 
                             to sort the clothings into their various categories. In conjunction,
                             I made use of TheColorApi to make color recommendations through color theory. If time wasn't an issue,
                             I would have tried incorporating ways to suggest based on latest fashion trends.
@@ -284,11 +309,12 @@ const PortfolioPage = () => {
                             </p>
                         
                             <p class="my-3">
+                                <h3 class="text-md-left my-3">Conclusion</h3>
                                 In conclusion, this project had a really steep learning curve for me as it was
                                 my first time utilizing the 3 main tech stacks mentioned. Furthermore, as I was juggling an 
                                 internship at the same time, the experience was exhausting and constantly tested my time management skills. However, I believe
                                 that the learning experience from this project was highly valuable as the tools and skills learnt
-                                are applicable in any application I would build in the future.
+                                are likely to be very applicable in any application I would build or contribute to in the future.
                                 <br/>
                                 To end this off, I would like to thank Toby Gail for helping me out with the design of the poster
                                 which captured the essence of the project really well! You can view her website at 
@@ -346,31 +372,97 @@ const PortfolioPage = () => {
                             <div class="text-center">
                                 <div>
                                     <h6>Tech Stack:</h6>
-                                    <p class="text-muted mb-0">Google Aps Script / Javascript / HTML / CSS</p>
+                                    <p class="text-muted mb-0">Google Apps Script / Javascript / HTML / CSS</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
-                            <div class="portfolio-single-item">
-                                <img src={ApsScript} class="d-block w-100 rounded" alt="..."/>
                             </div>
                         </div>
                     </div>
                     <div class="text-md-left mt-5">
                         <p class="my-3">
+                            <h3 class="text-md-left my-3">Background</h3>
                             Right after my 2 years in National Service, I spent a bunch of my time travelling
                             and exploring the world, and even went on a solo trip to Philippines in January 2019.
                             After I came back, I decided to try out for an internship at a Wedding Photography company,
-                            Multifolds.
+                            Multifolds. This was my very first internship.
                             <br/>
                             <br/>
+                            <h3 class="text-md-left my-3">Problem Statement</h3>
                             During my internship as a photographer, I got to witness the inner proceedings and aspects 
                             of the company. After one of the Bridal Show, early in the year, I noticed that my colleague, Sharon,
-                            was extremely busy after the wedding shows. She would spend a large amount of time (3-5 hours each day of the event), 
-                            sending replies to interested customers about the details of the packages the company offered, while also providing
-                            each photographer's portfolio. I took the initiative to ask about her task, and thought about ways to automate
-                            the process without having the automated emails send fixed replies regardless of the customer's interest indication.
-                            From there, I proposed to work on this project to my boss Melvin, who gave his full support which I am still very thankful for.
+                            was extremely busy after the wedding shows. She would spend a large amount of time at the end of the day (3-5 hours), 
+                            sending replies to interested clients about the details of the packages the company offered, while also providing
+                            each photographer's portfolio.
+                            
+                            <br/>
+                            <br/>
+                            <b>How can I automate her seemingly repetitive task, while still having the aspect of a customized reply?</b>
+                            <br/>
+                            <br/>
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={Form} class="d-block w-100 rounded" style={{marginBottom: "10px"}} alt="..."/>
+                            </div>
+                            <div class="portfolio-single-item">
+                                <img src={Form_two} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            <h3 class="text-md-left my-3">Ideation</h3>
+                            Before I started finding ways to automate, I took a look into the inner proceedings of the company. Most of the data were stored on 
+                            google applications such as Google Sheets, and clients were filling up their data and preferences through Google Forms.
+                            From there, I started searching for technologies related to these 2 applications and found out about Google Apps Script. 
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={ApsScript} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            <h3 class="text-md-left my-3">Solution</h3>
+                            Apps script provided the interface for various google applications to link to one another through event triggers,
+                            such as a form submission. This made my job relatively easier as there was no need for external technologies. By learning how to scrape
+                            data from Google Sheets on the Google scripts platform, I managed to retrieve an array of data provided by each client, specifying their
+                            preferences, contact, etcetera. 
+                            <br/>
+                            <br/>
+                            Next up, was manipulating the data to return the customized reply. This was done through conditional statements as seen below.
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={Script_two} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            Once data manipulation is complete, I looked up the API for gmail, and put together a template for the email. One convenient feature about
+                            Google Apps Script was the error logging, in which helped me to debug quickly. Now, the script is complete! All I had to do was to add a 
+                            trigger for form submission, which would then execute this script.
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={Script} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            Here's the end result after filling up the form shown above:
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={Reply} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                        <h3 class="text-md-left my-3">Conclusion</h3>
+                            Taking on this project brought about many new experiences for me. As this was my first project involving Google applications, I had to 
+                            take the time to read up on how the applications were able to link to one another. Furthermore, the concept of triggers and passing of data 
+                            from one application to the other was rather new to me as I had just started out coding. Therefore, one of the main learning points would be
+                            the usage of APIs and ways to find them. I strongly believe that this experience would benefit my future projects greatly.
+                            <br/>
+                            <br/>
+                            All in all, this project was only possible with the full support of Melvin and Sharon who provided me with the time and resources.
+                            I am very grateful for the opportunity to not only explore my interest in photography, but also meddle with code at the same time.
+                            It also brings me great joy to know that this project was improved and maintained by Melvin after I left, and more importantly, the value it brought for them through the years. A big 
+                            THANK YOU to Melvin for helping me out with this portfolio and my past testimonials.
                         </p>
                     </div>
                 </Container>
@@ -415,7 +507,6 @@ const PortfolioPage = () => {
                             </div>
                             <div className="portfolio-items mt-1 row">
                                 <Tab
-                                    // tag="photography"
                                     content={[
                                         
                                         {
