@@ -274,7 +274,8 @@ const PortfolioPage = () => {
                                 that we were always wearing the same few clothes from our wardrobes in the same combination.
                                 Therefore, we wanted to have our outfits for the week planned out based on fashion and color 
                                 theory, just to spice up our fashion sense a little.
-
+                                <br/>
+                                <br/>
                                 <b>How can we come up with ways to better utilize our current wardrobe to dress better?</b>
                                 <br/>
                                 <br/>
@@ -287,6 +288,7 @@ const PortfolioPage = () => {
                                 cloud functions and buckets to store user's images were all provided. All we had to do was to find tools that could help identify clothings and suggest 
                                 possible compatible colors. 
 
+                                <br/>
                                 <br/>
                                 <h3 class="text-md-left my-3">Our Solution</h3>
                             </p>

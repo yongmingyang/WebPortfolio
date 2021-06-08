@@ -31,7 +31,7 @@ export default class ResumePage extends Component {
                                         {
                                             title: "Bachelor of Computing, National University of Singapore",
                                             duration: "2019 - current",
-                                            description: "Currently on my second year of a 4 year undergraduate program studying Computer Science"
+                                            description: "Currently on my third year of a 4 year undergraduate program studying Computer Science"
                                         },
                                         {
                                             title: "Officer Cadet School, Singapore Armed Forces",
