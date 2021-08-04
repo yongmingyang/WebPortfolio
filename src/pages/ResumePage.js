@@ -57,22 +57,25 @@ export default class ResumePage extends Component {
                                         {
                                             title: "Software Engineer Intern, Infocomm Media Development Authority (IMDA)",
                                             duration: "05/2021 - current",
-                                            description: `Worked on Artificial Intelligience Product Shopfloor project. Mainly focusing
+                                            description: `Involved in Artificial Intelligience Product Shopfloor project, focusing mainly
                                             on CI/CD, provisioning and deploying of resources using Amazon cloud services such as S3 bucket, Cloudfront and
-                                            Route 53.`
+                                            Route 53. Developed and designed the architecture of a preview system including a web application and devOps
+                                            for non-technical users to make changes. Saved 5 - 10mins of user's time for each change made. `
                                         },
                                         {
                                             title: "Software Engineer Intern, Infocomm Media Development Authority (IMDA)",
                                             duration: "06/2020 - 08/2020",
                                             description: `Worked on developing a Mobile Device Solution (MDM) solution
                                             to support the rollout of mobile devices under the Senior Go Digital. Focused on backend
-                                            use of Firebase and cloud functions and created an application to push notifications`
+                                            use of Firebase and cloud functions and created an application to push notifications. This provided the foundation for the project
+                                            to continue developing.`
                                         },
                                         {
                                             title: "Photographer Intern, Multifolds Phtography Global Pte Ltd",
                                             duration: "02/2019 - 06/2019",
                                             description: `Interned at Multifolds Private Ltd as a photographer. Had the opportunity to edit photos,
-                                            take part in pre-wedding and actual day events. Took the initiative to create a customized automated-email-reply system.`
+                                            take part in pre-wedding and actual day events. Took the initiative to develop a customized automated-email-reply system which
+                                            saved 3-4 hours of post-event work.`
                                         },
                                         {
                                             title: "Platoon Commander, Singapore Armed Forces",

@@ -148,15 +148,6 @@ const PortfolioPage = () => {
                                 Users would also be able to view the acronyms stored in each glossary prior to downloading.
                             </p>
                         </div>
-                        {/* <Container className="row" style={{width: '120%'}}>
-                            <div style={{float: 'left', width: '50%', padding: '5px'}}>
-                            <img src={Marketplace} class="d-block w-100 rounded" alt="..."/>
-                            </div>
-                            <div  style={{float: 'left', width: '50%', padding: '5px'}}>
-                            <img src={MarketplaceExplanation} class="d-block w-100 rounded" alt="..."/>
-                            
-                            </div>
-                        </Container> */}
                         <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
                             <div class="portfolio-single-item" style={{marginBottom:"10px"}}>
                                 <img src={Marketplace} class="d-block w-100 rounded" alt="..."/>
@@ -198,6 +189,9 @@ const PortfolioPage = () => {
                                 <h3 class="text-md-left my-3">Conclusion</h3>
                                 All in all, thank you for reading about Mynorca and
                                 I hope you've had an enjoyable time reading about it! More would be updated as we're still working on this project to improve it's functionalities!
+                                <br/>
+                                To tryout Mynorca, click <a href="https://chrome.google.com/webstore/search/mynorca">here.</a> Alternatively, it can be found on the Chrome Extension store by searching
+                                "Mynorca".
                             </p>
                             <p class="my-3 text-muted" style={{fontSize:11}}>
                                 <br/>
