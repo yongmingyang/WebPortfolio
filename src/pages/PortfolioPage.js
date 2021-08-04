@@ -190,7 +190,7 @@ const PortfolioPage = () => {
                                 All in all, thank you for reading about Mynorca and
                                 I hope you've had an enjoyable time reading about it! More would be updated as we're still working on this project to improve it's functionalities!
                                 <br/>
-                                To tryout Mynorca, click <a href="https://chrome.google.com/webstore/search/mynorca">here.</a> Alternatively, it can be found on the Chrome Extension store by searching
+                                To tryout Mynorca, click <a href="https://chrome.google.com/webstore/detail/mynorca/acfhajhbkpkciaefkebieeknhjbckdlm">here.</a> Alternatively, it can be found on the Chrome Extension store by searching
                                 "Mynorca".
                             </p>
                             <p class="my-3 text-muted" style={{fontSize:11}}>
