@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class LandingPage extends Component {
     render() {
         return(
-            <section className="section pp-scrollable hero hero-01" id="hero" data-navigation-color="#fff" data-navigation-tooltip="HOME" data-background-image="http://placehold.it/1920x1280">
+            <section className="section pp-scrollable hero hero-01" id="hero" data-navigation-color="#fff" data-navigation-tooltip="HOME" data-background-image="https://place-hold.it//1920x1280">
                 <div className="display-table">
                     <div className="display-content">
                         <div className="container">

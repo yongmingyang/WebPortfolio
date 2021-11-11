@@ -23,7 +23,7 @@ export default class BlogPage extends Component{
                             <div className="col-lg-4">
                                 <div className="blog-item">
                                     <div className="image-blog">
-                                        <img src="http://placehold.it/600x400" alt="/" className="img-fluid rounded-top"/>
+                                        <img src="https://place-hold.it//600x400" alt="/" className="img-fluid rounded-top"/>
                                     </div>
                                     <div className="blog-content rounded-bottom text-left p-3">
                                         <h5 className="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" className="text-dark font-weight-light">Be Your Best Version</a></h5>
@@ -46,7 +46,7 @@ export default class BlogPage extends Component{
                             <div className="col-lg-4">
                                 <div className="blog-item">
                                     <div className="image-blog">
-                                        <img src="http://placehold.it/600x400" alt="/" className="img-fluid rounded-top"/>
+                                        <img src="https://place-hold.it//600x400" alt="/" className="img-fluid rounded-top"/>
                                     </div>
                                     <div className="blog-content rounded-bottom text-left p-3">
                                         <h5 className="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" className="text-dark font-weight-light">5 Tips In UI/UX Web Design</a></h5>
@@ -69,7 +69,7 @@ export default class BlogPage extends Component{
                             <div className="col-lg-4">
                                 <div className="blog-item">
                                     <div className="image-blog">
-                                        <img src="http://placehold.it/600x400" alt="/" className="img-fluid rounded-top" />
+                                        <img src="https://place-hold.it//600x400" alt="/" className="img-fluid rounded-top" />
                                     </div>
                                     <div className="blog-content rounded-bottom text-left p-3">
                                         <h5 className="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" className="text-dark font-weight-light">Write Your Dreams</a></h5>

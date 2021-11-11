@@ -21,7 +21,7 @@ export default class BlogPage extends Component{
                         </div>
                         {/* <div className="row mt-5">
                             <div className="col-lg-12">
-                                <div id="my-map" data-location-lat="43.053454"  data-location-lng="-76.144508" data-location-icon="http://placehold.it/60x30"></div>
+                                <div id="my-map" data-location-lat="43.053454"  data-location-lng="-76.144508" data-location-icon="https://place-hold.it//60x30"></div>
                             </div>
                         </div> */}
                         <div className="row mt-5">

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Footer extends Component{
     render(){
         return(
-            // <div id="footer" className="section pp-scrollable footer" data-navigation-color="#fff" data-navigation-tooltip="FOOTER" data-background-image="http://placehold.it/1920x1280">
+            // <div id="footer" className="section pp-scrollable footer" data-navigation-color="#fff" data-navigation-tooltip="FOOTER" data-background-image="https://place-hold.it//1920x1280">
                  <div className="container-fluid">
                      <div className="row py-6">
                          {/* <div className="title-small">

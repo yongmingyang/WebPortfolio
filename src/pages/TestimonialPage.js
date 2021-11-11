@@ -25,7 +25,7 @@ export default class TestimonialPage extends Component {
                                         <div className="testimonial-item text-left">
                                             <p className="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                             <div className="float-left mt-4 mr-3 mr-sm-4">
-                                                <img src="http://placehold.it/125x125" alt="/" className="rounded-circle"/>
+                                                <img src="https://place-hold.it//125x125" alt="/" className="rounded-circle"/>
                                             </div>
                                             <h4 className="float-left mt-5">-Jone Doe, <span className="font-weight-bold">Seo Manager</span></h4>
                                         </div>
@@ -33,7 +33,7 @@ export default class TestimonialPage extends Component {
                                         <div className="testimonial-item text-left">
                                             <p className="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                             <div className="float-left mt-4 mr-3 mr-sm-4">
-                                                <img src="http://placehold.it/125x125" alt="/" className="rounded-circle"/>
+                                                <img src="https://place-hold.it//125x125" alt="/" className="rounded-circle"/>
                                             </div>
                                             <h4 className="float-left mt-5">-Jessy Doe, <span className="font-weight-bold">UI Designer</span></h4>
                                         </div>
@@ -41,7 +41,7 @@ export default class TestimonialPage extends Component {
                                         <div className="testimonial-item text-left">
                                             <p className="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                             <div className="float-left mt-4 mr-3 mr-sm-4">
-                                                <img src="http://placehold.it/125x125" alt="/" className="rounded-circle"/>
+                                                <img src="https://place-hold.it//125x125" alt="/" className="rounded-circle"/>
                                             </div>
                                             <h4 className="float-left mt-5">-Jully Doe, <span className="font-weight-bold">UX Designer</span></h4>
                                         </div>
@@ -49,7 +49,7 @@ export default class TestimonialPage extends Component {
                                         <div className="testimonial-item text-left">
                                             <p className="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                             <div className="float-left mt-4 mr-3 mr-sm-4">
-                                                <img src="http://placehold.it/125x125" alt="/" className="rounded-circle"/>
+                                                <img src="https://place-hold.it//125x125" alt="/" className="rounded-circle"/>
                                             </div>
                                             <h4 className="float-left mt-5">-Jully Doe, <span className="font-weight-bold">UX Designer</span></h4>
                                          </div>
