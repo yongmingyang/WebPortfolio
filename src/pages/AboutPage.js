@@ -15,16 +15,15 @@ export default class AboutPage extends Component {
                         </div>
                         <div className="row mt-4">
                             <div className="col-lg-3" style={{alignSelf: 'center'}}>
-                                <img src={displayphoto} alt="/" style={{
+                                <img src={displayphoto} alt="/" className="img-thumbnail w-100" style={{
                                     borderRadius: '100%',
                                     border: '1px',
                                     borderColor: '#dee2e6',
                                     borderStyle: 'solid',
                                     padding: '0.25rem',
-                                    width: '100%',
-                                    height: '100%',
+                                    maxWidth: '100%',
+                                    height: 'auto',
                                     overflow: 'hidden',
-                                    scale: '1.3',
                                     position: 'relative',
                                 }}/>
                             </div>
