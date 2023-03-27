@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import displayphoto from '../images/displayphoto.jpg'
+import displayphoto from '../images/displayphoto2.png'
 
 export default class AboutPage extends Component {
     render() {
@@ -14,8 +14,19 @@ export default class AboutPage extends Component {
                             </div>
                         </div>
                         <div className="row mt-4">
-                            <div className="col-lg-3">
-                                <img src={displayphoto} alt="/" className="rounded img-thumbnail w-100"/>
+                            <div className="col-lg-3" style={{alignSelf: 'center'}}>
+                                <img src={displayphoto} alt="/" style={{
+                                    borderRadius: '100%',
+                                    border: '1px',
+                                    borderColor: '#dee2e6',
+                                    borderStyle: 'solid',
+                                    padding: '0.25rem',
+                                    width: '100%',
+                                    height: '100%',
+                                    overflow: 'hidden',
+                                    scale: '1.3',
+                                    position: 'relative',
+                                }}/>
                             </div>
                             <div className="col-lg-1"></div>
                             <div className="col-lg-8 personal-item  mb-4 mb-lg-0">
@@ -28,25 +39,25 @@ export default class AboutPage extends Component {
                                           <p className="text-dark">Mail : <span className="text-gray">yongmingyang1998@gmail.com</span></p> */}
                                           {/* <p className="text-dark">Freelance : <span className="text-gray">Available</span></p> */}
                                           <p className="text-dark" style={{textAlign: "justify"}}>
-                                            Hi! I'm Ming Yang, 23 years old and I'm currently based in Singapore, studying Computer Science at the National University of Singapore.    
-                                            I love to tell stories and create through various mediums such as coding and photos. 
-                                            In my free time, you can find me diving (always up for any spontaneous adventures), coding or shooting photos.
+                                            Hi! I'm Ming Yang, a 4th year Computer Science student at the National University of Singapore. I am deeply fascinated and active within the Web 3 space and I'm currently exploring the possibilities of blockchain technology.<br/> In 2022, I spent the year in Toronto as part of the NUS Overseas Colleges program, giving me the opportunity to work (fulltime), study (University of Toronto) and go for conferences (NFT NYC, ETHToronto, Blockchain Futurist, Solana Lisbon Hacker House and Solana Breakpoint, Lisbon). <br/> In my free time, you can find me diving (always up for any spontaneous adventures), coding or shooting photos.
                                             
-                                            (P.S. Teh/kopi bing are my daily go to)
                                           <br/>
                                           </p>
                                           <br/>
-                                          <h5 className="text-dark mb-3">Here's what I'm currently working on this summer:</h5>
+                                          <h5 className="text-dark mb-3">Here's what I'm currently working on in 2023:</h5>
                                           <p className="text-dark" style={{textAlign: "justify"}}>
-                                            <b>Mynorca:</b>
+                                            <b>VERI:</b>
                                             <br/>
-                                            An overlay tool to ease new employees into their workplace seamlessly by automatically identifying and explaining acronyms found in a company’s workspace.
+                                            A blockchain-enabled luxury secondhand marketplace that aims to provide a safe and secure platform for users to buy and sell authentic luxury goods.
                                           </p>
                                           <p className="text-dark" style={{textAlign: "justify"}}>
-                                            <b>Internship:</b>
+                                            <b>NFC-NFT:</b>
                                             <br/>
-                                            Currently interning at IMDA Digital Services Lab (DSL) as a Software Engineer Intern, where I am working on a project known as
-                                            AI Product Shopfloor which aims to equip SMEs in Singapore with AI tools.
+                                            A project that looks to link NFC chips to NFTs immutably and verifiably. 
+                                          </p>
+                                          <h4 className="text-dark mb-3">Opportunities</h4>
+                                          <p className="text-dark" style={{textAlign: "justify"}}>
+                                            As I'm graduating May 2023, I'm currently looking for a full-time position in the blockchain/Web 3 space. I'm open to any opportunities, so feel free to reach out to me!
                                           </p>
                                           <br/>
                                           <p className="text-dark" style={{textAlign: "justify"}}>

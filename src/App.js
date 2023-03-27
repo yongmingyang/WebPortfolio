@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
+// import Header from './components/Header';
 // import Footer from './components/Footer';
-import LandingPage from './pages/LandingPage';
-import AboutPage from './pages/AboutPage';
-import ResumePage from './pages/ResumePage';
-import PortfolioPage from './pages/PortfolioPage';
-import ProjectDetailPage from './pages/ProjectDetailPage';
+// import LandingPage from './pages/LandingPage';
+// import AboutPage from './pages/AboutPage';
+// import ResumePage from './pages/ResumePage';
+// import PortfolioPage from './pages/PortfolioPage';
+// import ProjectDetailPage from './pages/ProjectDetailPage';
 // import ContactPage from './pages/ContactPage';
 import './App.css';
 import Routes from "./components/Routes";

@@ -4,9 +4,6 @@ import SkillList from '../components/SkillList';
 
 export default class ResumePage extends Component {
     render() {
-        // const { title } = this.props.title;
-        // console.log("hei")
-        // console.log(title);
         return(
             <section id="resume" className="section pp-scrollable resume" data-navigation-color="#fff" data-navigation-tooltip="RESUME">
                 <div className="display-table">
@@ -19,7 +16,7 @@ export default class ResumePage extends Component {
                                 <div className="col-lg-12">
                                     <div className="text-left">
                                         <h2 className="text-dark mb-3"><span className="base-color">Resume</span></h2>
-                                        {/* <p className="text-muted">Available for freelance projects.</p> */}
+                                        <p className="text-muted">Available for freelance projects.</p>
                                     </div>
                                 </div>
                             </div>
@@ -32,6 +29,11 @@ export default class ResumePage extends Component {
                                             title: "Bachelor of Computing, National University of Singapore",
                                             duration: "2019 - current",
                                             description: "Currently on my third year of a 4 year undergraduate program studying Computer Science"
+                                        },
+                                        {
+                                            title: "Exchange student, University of Toronto",
+                                            duration: "2022 - 2023",
+                                            description: "Enrolled in the University of Toronto for an exchange program as part of the NUS Overseas College program."
                                         },
                                         {
                                             title: "Officer Cadet School, Singapore Armed Forces",
@@ -55,8 +57,29 @@ export default class ResumePage extends Component {
                                     title="Experience"
                                     content={[
                                         {
+                                            title: "Software Engineer, Mavennet Inc.",
+                                            duration: "01/2022 - 12/2022",
+                                            description: <span>
+                                                Built and demo-ed a Proof of Concept smart contract application in 2 weeks for a client which was used to raise CAD$1.5m in funding.
+                                                <br/>
+                                                <br/>
+                                                Took the lead (both business and tech) in a proposal to build a crypto bridge for the Stellar Foundation.
+                                                <br/>
+                                                <br/>
+                                                Lead blockchain development efforts, managed expectations, and provided consultation for a client in which I built 2 main products:
+                                                <br/> 1) a smart contract to split incoming revenue based on varying conditions (Solana)
+                                                <br/> 2) a smart contract to enable freelance agreements and payments between DAOs/groups and individuals (Ethereum)
+                                                <br/> 
+                                                <br/> 
+                                                Set up multilingual support for Metaltrail project using i18n on React. Unit testing for Neoflow, bringing test coverage up from 45% to 80%. Multi Factor Authentication set up for projects Grapes and YaaS.
+                                                <br/> 
+                                                <br/> 
+                                                Ran and maintained validator nodes for Aptos and Cheqd using AWS EC2 instances. Earned over US$4000 in through airdrops.
+                                            </span>
+                                        },
+                                        {
                                             title: "Software Engineer Intern, Infocomm Media Development Authority (IMDA)",
-                                            duration: "05/2021 - current",
+                                            duration: "05/2021 - 07/2021",
                                             description: `Involved in Artificial Intelligience Product Shopfloor project, focusing mainly
                                             on CI/CD, provisioning and deploying of resources using Amazon cloud services such as S3 bucket, Cloudfront and
                                             Route 53. Developed and designed the architecture of a preview system including a web application and devOps
@@ -91,19 +114,22 @@ export default class ResumePage extends Component {
                                     title="Tech Stacks"
                                     content={[
                                         {
-                                            name: "JavaScript"
+                                            name: "JavaScript/Typescript"
                                         },
                                         {
-                                            name: "Java"
+                                            name: "Solidity"
                                         },
                                         {
-                                            name: "Firebase"
+                                            name: "Rust (Anchor Framework)"
+                                        },
+                                        {
+                                            name: "AWS (EC2, S3, Lambda, etc)"
                                         },
                                         {
                                             name: "React"
                                         },
                                         {
-                                            name: "React Native"
+                                            name: "Java"
                                         }
                                     ]}
                                 />
