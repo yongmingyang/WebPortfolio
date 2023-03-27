@@ -71,10 +71,10 @@ export default class ResumePage extends Component {
                                                 <br/> 2) a smart contract to enable freelance agreements and payments between DAOs/groups and individuals (Ethereum)
                                                 <br/> 
                                                 <br/> 
-                                                Set up multilingual support for Metaltrail project using i18n on React. Unit testing for Neoflow, bringing test coverage up from 45% to 80%. Multi Factor Authentication set up for projects Grapes and YaaS.
+                                                Set up multilingual support for Metaltrail project using i18n on React. Wrote unit-tests for Neoflow, bringing test coverage up from 45% to 80%. Multi Factor Authentication set up for projects Grapes and YaaS.
                                                 <br/> 
                                                 <br/> 
-                                                Ran and maintained validator nodes for Aptos and Cheqd using AWS EC2 instances. Earned over US$4000 in through airdrops.
+                                                Ran and maintained validator nodes for Aptos and Cheqd using AWS EC2 instances. Earned over US$4000 through airdrops.
                                             </span>
                                         },
                                         {
