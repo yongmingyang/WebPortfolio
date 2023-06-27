@@ -23,12 +23,18 @@ import Script from '../images/A.E.R/newscript.jpg';
 import Script_two from '../images/A.E.R/newscript2.jpg';
 import Reply from '../images/A.E.R/reply.png'
 
+import DAMLogo from '../images/DAM/DamLogo.svg'
+import NTGSLanding from '../images/DAM/NTGS_landing.png'
+import NTGSStreamPage from '../images/DAM/NTGS_Stream_page.png'
+import NTGSLiveStream from '../images/DAM/NTGS_Livestream.png'
+
 const PortfolioPage = () => {
     // getModalStyle is not a pure function, we roll the style only on the first render
     const [modalStyle] = useState(getModalStyle);
     const [openMynorca, setOpenMynorca] = useState(false);
     const [openInstawear, setOpenInstawear] = useState(false);
     const [openAER, setOpenAER] = useState(false);
+    const [openDAM, setOpenDAM] = useState(false);
 
 //styles for modal    
     function getModalStyle() {
@@ -480,6 +486,108 @@ const PortfolioPage = () => {
         );
     }
 
+    //DAM functions and page     
+    const handleOpenDAM = () => {
+        setOpenDAM(true);
+    };
+
+    const handleCloseDAM = () => {
+        setOpenDAM(false);
+    };
+
+
+    const DAMPage = () => {
+        const body = (
+            <Container style={modalStyle} className="bg-white">
+                <Container className="row" style={{width: "90%"}}>
+                    <div className="text-center">
+                        <h2 style={{textAlign:"center"}} className="text-dark mb-3">DAM Game Show Platform</h2>
+                        <p class="text-muted max-width-450"> New Tokyo Game Show @ &nbsp; 
+                            <a 
+                                href='https://dam.show'
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                dam.show
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="row contact-info mt-5">
+                        <div class="col-md-6 p-title-border mt-3 mt-md-0">
+                            <div class="text-center">
+                                <div>
+                                    <h6 class="contact_detail-title">Started on: </h6>
+                                    <p class="text-muted mb-0">Early May - End May, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <div class="text-center">
+                                <div>
+                                    <h6>Tech Stack:</h6>
+                                    <p class="text-muted mb-0">React / MUI / Ethers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-md-left mt-5">
+                        <p class="my-3">
+                            <h3 class="text-md-left my-3">Background</h3>
+                            After meeting Atareh in Toronto when I was working in Toronto 2022, we kept in touch and met up a few times at various Web 3 events, from NFT NYC to Blockchain Futurist Conference and more. As I have been keeping up with the DAM Show, I was very excited to hear that the team was working on a new game show platform for the New Tokyo Game Show. Atareh reached out to me to help out with the development of the platform, and I was more than happy to help out.
+                            <br/>
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={NTGSLanding} class="d-block w-100 rounded" style={{marginBottom: "10px"}} alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            <h3 class="text-md-left my-3">Ideation</h3>
+                            Before I started building the platform, we had a couple of meetings to ideate on the features that we wanted to include in the platform. We wanted to make the platform as simple as possible, and the main features that we wanted to include were:
+                            <br/> 1. Connection of Metamask wallet
+                            <br/> 2. A way to detect if the connected user holds at least 1 $APE coin
+                            <br/> 3. A way to incorporate the livestreaming of the game show into the platform
+                            <br/> 4. Incorporating games directly into the platform
+                            Atareh then did up the wireframes for the platform, and we were ready to start building.
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={NTGSStreamPage} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            <h3 class="text-md-left my-3">Overall Experience</h3>
+                            Working with the DAM team was highly pleasant as they were highly receptive to my comments
+                            and suggestions. What stood out to me was the excitement I felt watching the platform I built come to live
+                            with people interacting and having fun with it. I had a conversation with Atareh about it and he highlighted that this is 
+                            how it feels to be in the arena as opposed to being an audience.
+                            I am very grateful for the opportunity to work with the DAM team, and I look forward more opportunities to be in the arena, building fun and cool Web 3 products.
+                        </p>
+                        <div class="mt-5" style={{marginLeft:'auto', marginRight:'auto'}}>
+                            <div class="portfolio-single-item">
+                                <img src={NTGSLiveStream} class="d-block w-100 rounded" alt="..."/>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </Container>
+        );
+
+        return (
+            <div>
+            <Modal
+                open={openDAM}
+                onClose={() => handleCloseDAM()}
+                aria-labelledby="simple-modal-title"
+                aria-describedby="simple-modal-description"
+                className="bg-white"
+            >
+                {body}
+            </Modal>
+            </div>
+        );
+    }
+
     return (
         <>
             <section id="portfolio" className="section pp-scrollable portfolio" data-navigation-color="#fff" data-navigation-tooltip="PORTFOLIO">
@@ -500,11 +608,17 @@ const PortfolioPage = () => {
                                 <MynorcaPage/>
                                 <InstawearPage/>
                                 <AerPage/>
+                                <DAMPage/>
                             </div>
                             <div className="portfolio-items mt-1 row">
                                 <Tab
                                     content={[
-                                        
+                                        {
+                                            id: "DAM Game Show",
+                                            title: "DAM Game Show",
+                                            image: {DAMLogo},
+                                            callback: handleOpenDAM
+                                        },
                                         {
                                             id: "InstaWear",
                                             title: "INSTAWEAR",
